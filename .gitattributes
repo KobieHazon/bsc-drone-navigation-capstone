@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+Makefile text eol=lf
+*.png binary
+*.jpeg binary
+*.jpg binary
+*.drawio text eol=lf
