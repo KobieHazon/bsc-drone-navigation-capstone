@@ -8,3 +8,15 @@ __pycache__/
 *.MOV
 *.mp4
 *.MP4
+
+!/docs/demos/demo-1.mov
+
+!/docs/demos/demo-2.mov
+
+!/docs/demos/final-2.mp4
+
+!/docs/demos/single-tag.mp4
+
+!/docs/demos/single-tag-ui-1.mp4
+
+!/docs/demos/single-tag-ui-2.mp4
