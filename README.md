@@ -38,5 +38,3 @@ make test-simulation
 The image provides ROS Melodic, Python 2.7, OpenCV, Tkinter, and the upstream Flock messages. It runs the project's own Tello simulator and controller on a real ROS graph, with networking disabled outside the container. The tests exercise takeoff, movement, closed-loop position control, trajectory loading, and the operator widgets on a virtual display. They do not send commands to a physical drone.
 
 Physical flight, the live camera/AprilTag pipeline, and ORB-SLAM mapping require their corresponding hardware and integrations; these are not covered by the simulation suite.
-
-For a quick source/document check, run `make check` (requires `uv`).

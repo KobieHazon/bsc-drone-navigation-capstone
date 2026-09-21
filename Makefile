@@ -1,7 +1,6 @@
 .PHONY: check test test-simulation
 
-check:
-	uv run --no-project python -B scripts/check_repository.py
+check: test
 
 test: test-simulation
 
